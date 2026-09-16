@@ -51,3 +51,7 @@ Structured answers to all of these: [Ques_bank_Answers.md](Ques_bank_Answers.md)
 
 13. Discuss how OOPSDBMS is different from RDBMS. Explaing using a real world example.
 14. Write down about object oriented struct and Attribute/Method/Relationships.
+
+# 8 Marks Question:  
+1. Create a constructor for a class "Student" that initializes the student's name and roll number, and a method to display the student's details. Also create a constructor for "Teacher" that initializes the teacher's name and subject, and a method to display the teacher's details. Create a university table that stores both student and teacher details using tuple constructors, and display all the details from it.
+Structured answers to all of these: [uni.sql](theo_adbms/uni.sql)
