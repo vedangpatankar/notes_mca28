@@ -1,0 +1,20 @@
+QUESTIONS BASED ON FUNCTIONS
+1. Define a user-defined function in Python. Write a Python program to create a function add() that accepts two numbers and returns their sum.
+2. Write a Python program using a function with positional arguments to calculate the area of a rectangle.
+3. Write a Python program using a function with default arguments to calculate the power of a number. Use 2 as the default exponent.
+4. Write a Python program using keyword arguments to display the details of a student such as name, roll number, and course.
+5. Write a Python function that accepts three numbers and returns the largest number among them.
+6. Write a Python function that accepts a number and checks whether it is even or odd.
+7. Write a Python function that accepts a number and returns its factorial.
+8. Write a Python program using a function to calculate simple interest. Pass principal, rate, and time as arguments.
+9. Write a Python function that accepts a number and returns the sum of its digits.
+10. Write a Python function that accepts a number and checks whether it is a prime number.
+11. Write a Python program to demonstrate the difference between a local variable and a global variable using a user-defined function.
+12. Write a Python function that accepts two numbers and returns both their sum and product.
+13. Write a Python program using a function to check whether a given number is a palindrome.
+14. Write a Python function that accepts a number and returns the reverse of the number.
+15. Write a Python program using a function to calculate the area of a circle. Pass the radius as an argument.
+16. Write a Python function that accepts three numbers and returns their average.
+17. Write a Python program using a function to calculate the greatest common divisor (GCD) of two numbers.
+18. Write a recursive function to find the factorial of a given number.
+19. Write a recursive function to calculate the sum of numbers from 1 to n.
