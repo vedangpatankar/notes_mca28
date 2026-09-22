@@ -1,15 +1,19 @@
 -- Q6: Create index and measure the performance of a query on the table.
+
+-- ---------- 1. Setup: create the table and load 100 test rows ----------
+drop table if exists students;
+
 Create TABLE students(
     stud_id serial primary key,
     name varchar(100),
     department varchar(50),
     city varchar(50),
     marks int
-)
+);
 
-insert into students (name, department, city, marks) values
+insert into students (name, department, city, marks)
 select 
-    'student' || generate_series,
+    concat('student', generate_series),
     CASE
         when generate_series % 3 = 0 then 'MCA'
         when generate_series % 3 = 1 then 'MBA'
@@ -21,8 +25,16 @@ select
         else 'Pune'
     end,
     (random() * 100)::int
-from generate_series(1, 1000);
+from generate_series(1, 100);
+
+-- A sample of the generated data.
+select * from students limit 10;
+
+-- ---------- 2. Performance BEFORE creating the index ----------
 
 explain analyze select * from students where marks > 90;
 
-create index idx_stud_city on students(city);
+-- ---------- 3. Create the index ----------
+create index idx_stud_marks on students(marks);
+
+\d students
