@@ -27,8 +27,9 @@ select
     (random() * 100)::int
 from generate_series(1, 100);
 
+
 -- A sample of the generated data.
-select * from students limit 10;
+select * from students limit 5;
 
 -- ---------- 2. Performance BEFORE creating the index ----------
 
